@@ -3,31 +3,167 @@
 .homepage .leftlinks #cl_app_beta,
 .no-js,
 p.more {
-  display: none;
+    display: none;
 }
 
 #logo {
-  font-size: 2.5rem;
+    font-size: 2.5rem;
 }
 
 .homepage-search .querybox {
-  border-top: 0;
-  border-right: 0;
-  border-left: 0;
-  border-bottom: 2px solid #464646;
-  font-size: 16px;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 2px solid #464646;
+    font-size: 16px;
 }
 
-.menu.collapsible > li {
-  cursor: pointer;
+.menu.collapsible>li {
+    cursor: pointer;
 }
 
-.menu.collapsible > li.expand.s ul {
-  display: block;
+.menu.collapsible>li.expand.s ul {
+    display: block;
 }
 
-.menu.collapsible > li ul {
-  display: none;
+.menu.collapsible>li ul {
+    display: none;
 }
+
 
 /* Your code here */
+
+* {
+    font-family: Helvetica, sans-serif;
+    background-color: #F5F5F5;
+    color: #464646;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+}
+
+ul>li {
+    list-style: none;
+}
+
+a:hover {
+    color: #800080;
+    font-weight: bold;
+}
+
+a:visited {
+    color: #800080;
+}
+
+span>a:hover {
+    color: #800080;
+    font-weight: bold;
+}
+
+.page-container {
+    max-width: 1200px;
+}
+
+#leftbar,
+#center,
+#rightbar {
+    box-sizing: border-box;
+    float: left;
+    padding: 0 30px;
+}
+
+footer {
+    clear: both;
+}
+
+#leftbar,
+#rightbar {
+    width: 25%
+}
+
+#center {
+    width: 50%;
+    border: 1px solid #464646;
+    border-radius: 10px;
+}
+
+#center>div {
+    float: left;
+    width: 33;
+}
+
+#topban h2 {
+    text-align: center;
+}
+
+ul.clfooter {
+    text-align: center;
+    border-top: 1px solid gray;
+    padding: 10px 0;
+}
+
+ul.clfooter>li {
+    display: inline;
+    padding-right: 5px;
+}
+
+h4.ban::before {
+    content: '☮';
+    background-color: plum;
+    border: 1 thin plum;
+    border-radius: 2px;
+    padding-right: 2px;
+    margin-right: 5px;
+}
+
+h4.ban::before {
+    content: '☮';
+    background-color: plum;
+    border: 1 thin plum;
+    border-radius: 2px;
+    padding-right: 2px;
+    margin-right: 5px;
+}
+
+.cal a {
+    color: green;
+    font-weight: bold;
+}
+
+.cal a:hover {
+    background-color: lavender;
+}
+
+td.past {
+    color: black;
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+table.cal td.today a {
+    background-color: darkviolet;
+    color: white
+}
+
+li:first-child {
+    border: 1px solid goldenrod;
+    border-radius: 3px;
+}
+
+li:last-child {
+    border: 1px solid goldenrod;
+    border-radius: 3px;
+}
+
+input:focus {
+    background-color: lightblue;
+}
+
+select:focus {
+    background-color: ivory;
+}
